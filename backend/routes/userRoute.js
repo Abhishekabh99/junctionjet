@@ -6,8 +6,5 @@ const { getAllUsers, getUserById, createUser, updateUser } = require('../control
 
 // Routes
 
-userRouter.post("/create", createUser);
-userRouter.put("/:id", updateUser);
-
 
 module.exports = userRouter;
